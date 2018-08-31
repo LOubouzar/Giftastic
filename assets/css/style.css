@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); 
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+label {
+    color: white;
+    padding: 10px;
+}
+
+.btn-warning {
+    margin: 2px;
+}
+
+p {
+    color: white;
+}

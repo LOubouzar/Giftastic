@@ -10,10 +10,11 @@ var topics = [
   "Friday",
   "Tired",
   "Nope",
+  "OMG",
 ]
 
 for (var i = 0; i < topics.length; i++) {
-    var button = ("  " + '<button class="btn btn-info searchBTN"  data-type="' + topics[i] + '">' + topics[i] + '</button>')
+    var button = ("  " + '<button class="btn btn-warning searchBTN"  data-type="' + topics[i] + '">' + topics[i] + '</button>')
     $('#buttonArea').append(button)
 }
 
@@ -24,7 +25,7 @@ $("#submitButton").on("click", function (e) {
     var searchValue = $('#searchArea').val()
     topics.push(searchValue)
     for (var i = 0; i < topics.length; i++) {
-        var button = ("  " + '<button class="btn btn-info searchBTN"  data-type="' + topics[i] + '">' + topics[i] + '</button>')
+        var button = ("  " + '<button class="btn btn-warning searchBTN"  data-type="' + topics[i] + '">' + topics[i] + '</button>')
         $('#buttonArea').append(button)
     }
 })
