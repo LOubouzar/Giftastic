@@ -1,0 +1,1 @@
+This application uses the GIPHY API to search and call gifs. The user can add additional search buttons to get more reaction gifs. Enjoy!
